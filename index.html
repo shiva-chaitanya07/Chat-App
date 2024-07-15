@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-Time Chat</title>
+    <!-- <script src="https://localhost:8000/socket.io/socket.io.js"></script> -->
+    <!-- <script src="/socket.io/socket.io.js"></script> -->
+    <script defer src="https://cdn.socket.io/4.0.0/socket.io.min.js"></script>
+    <script defer src="js/client.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <nav>
+        <img class="logo" src="appicon.png" alt="">
+    </nav>
+    <div class="container">
+        <div class="message right">harry:hi how r youu</div>
+        <div class="message left">rohan:hi how r youu</div>
+    </div>
+
+    <div class="send">
+        <form action="#" id="send-container">
+            <input type="text" name="messageInp" id="messageInp">
+            <button class="btn" type="submit">Send</button>
+        </form>
+    </div>
+    
+</body>
+</html>
